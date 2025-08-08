@@ -7,7 +7,7 @@ Un script sencillo que descarga videos de YouTube y los convierte a formato `.mp
 
 ### 📥 Descargas
 
-Para que el programa funcione, necesitas estos archivos. Descárgalos y colócalos en la misma carpeta que el resto del proyecto:
+Para utilizar la version compilada (.exe) necesitas descargar el ejecutable:
 
 * `ytmp3.exe`: Haz clic [aquí para descargar](https://www.mediafire.com/file/xqdqyd5qlepdlge/ytmp3.exe/file).
 Aquí tienes el texto en formato Markdown para que lo copies y pegues en tu `README.md`.
