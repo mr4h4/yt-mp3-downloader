@@ -1,25 +1,26 @@
 
 # 🎶 YouTube to MP3 Converter
 
-Un script sencillo que descarga videos de YouTube y los convierte a formato `.mp3` utilizando **yt-dlp** y **ffmpeg**. Este repositorio incluye tanto el código fuente en **Python** (`.py`) como una **versión compilada para Windows** (`.exe`).
+Un script sencillo que descarga videos de YouTube y los convierte a formato `.mp3` utilizando **yt-dlp** y **ffmpeg**. Este proyecto incluye tanto el código fuente en **Python** (`.py`) como una **versión compilada para Windows** (`.exe`).
 
 ---
 
-### 📥 Descargas
+## 📥 Descargas
+### Clona este repositorio:
+  ```bash
+    git clone https://github.com/mr4h4/yt-mp3-downloader
+  ```
 
-Para utilizar la version compilada (.exe) necesitas descargar el ejecutable:
-
+### Versión compilada (no necesita ffmpeg):  Recomendado para Windows ✅
+Para la versión compilada solo necesitas descargar el ejecutable y meterlo dentro de la carpeta del repositorio: 
 * `ytmp3.exe`: Haz clic [aquí para descargar](https://www.mediafire.com/file/xqdqyd5qlepdlge/ytmp3.exe/file).
-Aquí tienes el texto en formato Markdown para que lo copies y pegues en tu `README.md`.
 
-## FFMPEG
+### Versión python (necesita ffmpeg)
 El programa necesita **ffmpeg** para convertir los videos a MP3. Tienes dos opciones para obtenerlo:
 
 * **Opción A (Recomendada):** Descarga el archivo `bin.zip` [desde aquí](https://www.mediafire.com/file/jgcedis47l4qn4l/bin.zip/file). Solo tienes que descomprimirlo y colocar la carpeta `/bin` junto a tu script. Esta opción es la más sencilla porque no requiere ninguna configuración adicional.
 
 * **Opción B (Avanzada):** Si ya tienes **ffmpeg** instalado o prefieres gestionarlo tú mismo, puedes descargarlo de la página oficial [desde aquí](https://www.gyan.dev/ffmpeg/builds/). En este caso, deberás asegurarte de que la carpeta `/bin` de **ffmpeg** esté añadida a las **variables de entorno (PATH)** de tu sistema para que el programa la encuentre automáticamente.
-
----
 
 ---
 
@@ -29,8 +30,8 @@ Para que el programa funcione correctamente, la estructura de tu proyecto debe s
 
 ```
 
-C:.
-│   links.txt
+yt-mp3-downloader
+│   links.txt (Aquí pegarás las URL de Youtube)
 │   README.md
 │   ytmp3.exe
 │   ytmp3.py
@@ -40,7 +41,7 @@ C:.
 │   │   ffplay.exe
 │   │   ffprobe.exe
 │
-└───music
+└───music (Aquí se guardarán las canciones una vez descargadas)
 
 ````
 
@@ -48,9 +49,9 @@ C:.
 
 ### 🚀 Cómo usarlo
 
-Elige la opción que mejor se adapte a ti. ¡Ambas son muy fáciles!
+Elige la versión que mejor se adapte a ti. ¡Ambas son muy fáciles!
 
-#### **Opción 1: Usar la versión compilada (.exe) - Recomendado ✅**
+#### **Opción 1: Usar la versión compilada (.exe) - Recomendado para Windows ✅**
 
 Esta es la forma más rápida y directa. ¡No necesitas instalar absolutamente nada!
 
