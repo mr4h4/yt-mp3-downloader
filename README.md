@@ -12,8 +12,6 @@ Para que el programa funcione, necesitas estos archivos. Descárgalos y colócal
 * `ytmp3.exe`: Haz clic [aquí para descargar](https://www.mediafire.com/file/xqdqyd5qlepdlge/ytmp3.exe/file).
 Aquí tienes el texto en formato Markdown para que lo copies y pegues en tu `README.md`.
 
----
-
 ## FFMPEG
 El programa necesita **ffmpeg** para convertir los videos a MP3. Tienes dos opciones para obtenerlo:
 
