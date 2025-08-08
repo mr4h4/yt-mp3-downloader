@@ -8,7 +8,7 @@ Un script sencillo que descarga videos de YouTube y los convierte a formato `.mp
 ## 📥 Descargas
 ### Clona este repositorio:
   ```bash
-    git clone https://github.com/mr4h4/yt-mp3-downloader
+  git clone https://github.com/mr4h4/yt-mp3-downloader
   ```
 
 ### Versión compilada (no necesita ffmpeg):  Recomendado para Windows ✅
