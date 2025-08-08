@@ -88,5 +88,4 @@ Si prefieres usar el código fuente o estás en otro sistema operativo, sigue es
 
 * El archivo `links.txt` debe estar siempre en la misma ubicación que el programa que ejecutes (`ytmp3.exe` o `ytmp3.py`).
 * El tiempo de descarga y conversión puede variar según la cantidad de videos y tu conexión a internet.
-* **¡Atención!** Una vez que el programa se esté ejecutando, **no cierres la ventana ni interactúes con ella**. Simplemente espera a que termine por completo y se cierre por sí sola.
-````
+* **¡Atención!** Una vez que el programa se esté ejecutando, **no cierres la ventana ni interactúes con ella**. Simplemente espera a que termine por completo o se cierre por sí sola.
