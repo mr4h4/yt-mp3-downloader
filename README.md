@@ -2,10 +2,11 @@
 # 🎶 YouTube to MP3 Converter
 
 Un script sencillo que descarga videos de YouTube y los convierte a formato `.mp3` utilizando **yt-dlp** y **ffmpeg**. Este proyecto incluye tanto el código fuente en **Python** (`.py`) como una **versión compilada para Windows** (`.exe`).
+
+
 <div align="center">
-  <img src="https://imgur.com/a/tbEKXA2" />
+  <img src="https://i.imgur.com/LoFBWZp.png" width="500" />
 </div>
----
 
 ## 📥 Descargas
 ### Clona este repositorio:
@@ -92,4 +93,5 @@ Si prefieres usar el código fuente o estás en otro sistema operativo, sigue es
 * El archivo `links.txt` debe estar siempre en la misma ubicación que el programa que ejecutes (`ytmp3.exe` o `ytmp3.py`).
 * El tiempo de descarga y conversión puede variar según la cantidad de videos y tu conexión a internet.
 * **¡Atención!** Una vez que el programa se esté ejecutando, **no cierres la ventana ni interactúes con ella**. Simplemente espera a que termine por completo o se cierre por sí sola.
+
 
